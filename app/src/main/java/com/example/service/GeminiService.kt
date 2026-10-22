@@ -120,7 +120,7 @@ class GeminiService {
         val lower = prompt.lowercase()
         return when {
             lower.contains("schedule") || lower.contains("calendar") || lower.contains("urgent") || lower.contains("private") -> {
-                "Dr. Biswas, I have scanned your itinerary. Your next urgent event is 'Board Strategy & Q4 Capital Allocation' at 10:00 AM, followed by your protected private health consultation at 12:30 PM. I have automatically reserved 15-minute buffers and synchronized pre-meeting briefings from Marcus Vance's email."
+                "${profile.name}, I have scanned your itinerary. Your next urgent event is 'Board Strategy & Q4 Capital Allocation' at 10:00 AM, followed by your protected private health consultation at 12:30 PM. I have automatically reserved 15-minute buffers and synchronized pre-meeting briefings from Marcus Vance's email."
             }
             lower.contains("email") || lower.contains("inbox") || lower.contains("reply") -> {
                 "Inbox triaged. 1 urgent action item detected: Marcus Vance requires sign-off on Term Sheet Clause 4.2 before 2 PM. I have prepared an executive reply retaining your founder governance rights, ready for one-tap dispatch."

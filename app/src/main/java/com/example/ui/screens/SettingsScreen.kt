@@ -63,7 +63,7 @@ fun SettingsScreen(
                     shape = RoundedCornerShape(20.dp)
                 ) {
                     Text(
-                        text = "Tuned to Dr. Biswas",
+                        text = "Tuned to ${userProfile.name}",
                         style = MaterialTheme.typography.labelSmall,
                         color = AuraCyanBright,
                         modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
@@ -194,7 +194,7 @@ fun SettingsScreen(
 
                     Button(
                         onClick = {
-                            viewModel.speakText("Greetings Dr. Biswas. Aura voice engine calibrated to your executive style.")
+                            viewModel.speakText("Greetings ${userProfile.name}. Aura voice engine calibrated to your executive style.")
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = AuraIndigo),
                         shape = RoundedCornerShape(10.dp),

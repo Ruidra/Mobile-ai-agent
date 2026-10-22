@@ -134,7 +134,7 @@ fun MakerStudioScreen(
                         placeholder = {
                             Text(
                                 text = when (selectedType) {
-                                    CreationType.WEBSITE -> "e.g. Build an executive portfolio for Dr. Biswas with clean glass cards..."
+                                    CreationType.WEBSITE -> "e.g. Build an executive portfolio for Shrihan Rudra Biswas with clean glass cards..."
                                     CreationType.ANDROID_APP -> "e.g. Create a real-time multi-agent orchestrator app with voice..."
                                     CreationType.AI_AGENT -> "e.g. Create an autonomous agent like Aura for legal contract analysis..."
                                 },

@@ -109,11 +109,11 @@ enum class ExecutiveTone(val title: String, val promptInstruction: String) {
 }
 
 data class UserProfile(
-    val name: String = "Dr. M. R. Biswas",
-    val role: String = "Chief Executive & Researcher",
+    val name: String = "Shrihan Rudra Biswas",
+    val role: String = "Chief Executive & Visionary",
     val tone: ExecutiveTone = ExecutiveTone.DIRECT,
     val vipContacts: List<String> = listOf("Sarah Lin (CFO)", "David Chen (CTO)", "Marcus Vance (Investor)", "Family"),
-    val autoSignoff: String = "Sent by Aura AI Executive Companion on behalf of Dr. Biswas",
+    val autoSignoff: String = "Sent by Aura AI Executive Companion on behalf of Shrihan Rudra Biswas",
     val backgroundMonitoring: Boolean = true,
     val lockScreenAlerts: Boolean = true,
     val voicePitch: Float = 1.0f,

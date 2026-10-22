@@ -116,8 +116,8 @@ class AuraRepository {
                 sender = "Marcus Vance (Apex Ventures)",
                 senderEmail = "marcus@apexventures.io",
                 subject = "URGENT: Revisions on Term Sheet Clause 4.2",
-                snippet = "Dr. Biswas, our legal counsel reviewed the governance structure. Please sign off on the amended liquidation clause before 2 PM EST...",
-                body = "Dear Dr. Biswas,\n\nOur legal counsel finalized the review on Clause 4.2 regarding board seat succession and pro-rata rights in subsequent rounds.\n\nCould you please review the attached document and confirm your agreement before our 2 PM board alignment call?\n\nBest regards,\nMarcus Vance\nManaging Partner",
+                snippet = "Shrihan, our legal counsel reviewed the governance structure. Please sign off on the amended liquidation clause before 2 PM EST...",
+                body = "Dear Shrihan,\n\nOur legal counsel finalized the review on Clause 4.2 regarding board seat succession and pro-rata rights in subsequent rounds.\n\nCould you please review the attached document and confirm your agreement before our 2 PM board alignment call?\n\nBest regards,\nMarcus Vance\nManaging Partner",
                 timeAgo = "18m ago",
                 isUrgent = true,
                 category = EmailCategory.URGENT_ACTION,
@@ -153,7 +153,7 @@ class AuraRepository {
                 senderEmail = "sreed@cs.stanford.edu",
                 subject = "Invitation: Keynote on Autonomous Executive Systems",
                 snippet = "We would be honored to host you at the upcoming International Symposia on Cognitive AI Agents in San Francisco...",
-                body = "Dear Dr. Biswas,\n\nFollowing your recent publications on real-time autonomous agent systems, the organizing committee cordially invites you to deliver a keynote address on 'Next-Generation Autonomous Personal Assistants'.\n\nPlease let us know if your calendar permits travel in late November.\n\nWarm regards,\nDr. Samantha Reed",
+                body = "Dear Shrihan,\n\nFollowing your recent publications on real-time autonomous agent systems, the organizing committee cordially invites you to deliver a keynote address on 'Next-Generation Autonomous Personal Assistants'.\n\nPlease let us know if your calendar permits travel in late November.\n\nWarm regards,\nDr. Samantha Reed",
                 timeAgo = "3h ago",
                 isUrgent = false,
                 category = EmailCategory.NEEDS_REVIEW,
@@ -266,7 +266,7 @@ class AuraRepository {
                 id = "create_1",
                 title = "Executive Portfolio & Thesis Portal",
                 type = CreationType.WEBSITE,
-                description = "Modern dark-glass luxury landing page for Dr. Biswas showcasing research papers and venture investments.",
+                description = "Modern dark-glass luxury landing page for Shrihan Rudra Biswas showcasing research projects and venture initiatives.",
                 htmlContent = """
                     <!DOCTYPE html>
                     <html>
@@ -288,7 +288,7 @@ class AuraRepository {
                     <body>
                         <div class="hero">
                             <span class="badge">LIVE AI AGENT CREATION</span>
-                            <h1>Dr. M. R. Biswas</h1>
+                            <h1>Shrihan Rudra Biswas</h1>
                             <p>Pioneering Autonomous Cognitive Architectures, Machine Intelligence & High-Impact Scientific Computing.</p>
                             <a href="#" class="btn">Download Executive Briefing</a>
                         </div>
