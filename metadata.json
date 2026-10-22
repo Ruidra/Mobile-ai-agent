@@ -1,0 +1,6 @@
+{
+  "name": "Aura Agent",
+  "description": "Autonomous AI Executive Assistant for daily scheduling, email management, natural voice control, global intelligence, WhatsApp & mobile automation, study assistance, and multi-agent maker studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
